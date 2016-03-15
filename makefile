@@ -1,5 +1,5 @@
 clean	:
-	find /users/sam/documents/c_code/ . -perm +111 -type f -delete
+	find /users/sam/documents/code/c . -perm +111 -type f -delete
 
 SRCS	=	$(wildcard	*.c)
 
