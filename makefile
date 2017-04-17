@@ -1,5 +1,5 @@
 clean	:
-	find /users/sam/documents/code/c . -perm +111 -type f -delete
+	find /Users/Sam/my-repos/C-tests . -perm +111 -type f -delete
 
 SRCS	=	$(wildcard	*.c)
 
